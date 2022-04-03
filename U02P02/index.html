@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Web</title>
+
+    <style>
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
+        
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Marca</th>
+            <th>Modelo</th>
+            <th>Año</th>
+            <th>Patente</th>
+        </tr>
+        <tr>
+            <td>Chevrolet</td>
+            <td>Celta</td>
+            <td>2010</td>
+            <td>KCY230</td>
+        </tr>
+        <tr>
+            <td>Chevrolet</td>
+            <td>Agile</td>
+            <td>2009</td>
+            <td>JUL130</td>
+        </tr>
+        <tr>
+            <td>Ford</td>
+            <td>KA</td>
+            <td>2015</td>
+            <td>MCO123</td>
+        </tr>
+    </table>
+<br>
+<hr>
+<br>
+    <table>
+        <thead>
+            <tr>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th colspan="2">Año/Patente</th>
+                <th>Papeles</th>
+                <th>Conservación</th>
+            </tr>
+        </thead>
+        <tbody>
+            <caption>COMPRA VENTA DE AUTOS USADOS</caption>
+            <tr>
+                <td rowspan="2"><a href="https://www.chevrolet.com.ar/">Chevrolet</a></td>
+                <td>Celta</td>
+                <td>2010</td>
+                <td>KCY230</td>
+                <td>Al día</td>
+                <td>Motor</td>
+            </tr>
+            <tr>
+                <td>Agile</td>
+                <td>2009</td>
+                <td>JUL130</td>
+                <td>Al día</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ford.com.ar/">Ford</a></td>
+                <td>KA</td>
+                <td>2015</td>
+                <td>MCO123</td>
+                <td>Al día</td>
+                <td>Chapería</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.ford.com.ar/">Ford</a></td>
+                <td>Mondeo</td>
+                <td>2013</td>
+                <td>LIO223</td>
+                <td>Seguro Vencido</td>
+                <td rowspan="2">-</td>
+            </tr>
+            <tr>
+                <td rowspan="2"><a href="https://www.audi.com.ar/ar/web/es.html">Audi</a></td>
+                <td>A1</td>
+                <td>2016</td>
+                <td>NIO444</td>
+                <td>Al día</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">AUTOS A COTIZAR</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

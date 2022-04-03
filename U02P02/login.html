@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/form.php">
+        <h1>Inicia sesión</h1>
+    <p>
+        A continuación debera completar con su email y su contraseña.
+    </p>
+
+        <label for="mail">E-Mail</label>
+        <input type="text" id="mail" name="mail" value="example@gmail.com">
+        <br>
+        <label for="password">Constraseña</label>
+        <input type="password" name="pw" id="id">
+        <label for="checkbox">Recordarme en este sitio</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br>
+        <input type="button" name="button" value="Iniciar">
+
+    </form>
+
+
+    <form action="/form.php">
+
+        <h1>Datos del alumno</h1>
+
+        <input type="text" name="ESTUDIANTE" id="ESTUDIANTE" readonly value="ESTUDIANTE">
+        <br>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="mail">E-mail</label>
+        <input type="text" name="mail" id="mail">
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad">
+        <br>
+        <label for="nacionalidad">Nacionalidad</label>
+        <input type="text" name="nacionalidad" id="nacionalidad">
+        <br>
+        <label for="laboral">Situación laboral</label>
+        <select name="laboral" id="laboral">
+            <option value="Empleado tiempo completo">Empleado tiempo completo</option>
+            <option value="Empleado tiempo parcial">Empleado tiempo parcial</option>
+            <option value="En busqueda">En busqueda laboral</option>
+            <option value="Desempleado">Desempleado</option>
+        </select>
+        <br>
+        <fieldset>
+            <legend>Gustos personales</legend>
+
+            <label for="musica">Preferencias musicales</label>
+            <input type="text" name="musica" id="musica">
+            <br>
+            <label for="comida">Comidas favoritas</label>
+            <select name="comida" id="comida">
+                <option value="Pizza">Pizza</option>
+                <option value="Empanadas">Empanadas</option>
+                <option value="Asado">Asado</option>
+                <option value="Ensalada">Ensalada</option>
+            </select>
+        </fieldset>
+        <br>
+        <label for="checkbox">Recordar los datos para este sitio</label>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <br>
+        <input type="button" value="Enviar">
+        
+    </form>
+</body>
+</html>
